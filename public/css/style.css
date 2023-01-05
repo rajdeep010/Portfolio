@@ -26,13 +26,11 @@
 
 html{
     overflow-x: hidden;
-    
 }
 
 body {
     padding: 1.6rem 4rem 0.1rem 4rem;
     overflow-x: hidden;
-    /* background-color: var(--dark-color); */
 }
 
 .dark{
@@ -71,12 +69,6 @@ element.style {
 }
 
 section:nth-child(even) {
-    margin-bottom: 2.5rem;
-}
-
-section:nth-child(odd) {
-    background: #f6f6f6;
-    border-radius: 3rem;
     margin-bottom: 2.5rem;
 }
 
@@ -244,50 +236,16 @@ section:nth-child(odd) {
     }
 }
 
-/* ----- About section ------ */
-.about {
-    display: flex;
-    flex-direction: column;
-    padding: 3rem;
-}
-
-.about .about-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.about .about-box {
-    display: flex;
-    flex-direction: column;
-
-    box-shadow: var(--small-box-shadow);
-    border-radius: 1rem;
-    padding: 3.3rem;
-    margin: 1.3rem;
-}
-
-.about .about-box .about-content ul li::marker {
-    color: var(--dark-violet);
-    font-size: 1.5rem;
-}
-
-.about .about-box img {
-    height: 4rem;
-    width: 4rem;
-    margin-bottom: 0.5rem;
-}
-
-.about .about-box .about-content .small-heading .icon {
-    color: #444;
-    text-shadow: 0.1rem 0.1rem 0 rgb(177, 177, 177);
-}
-
 /* Contact Section */
 
 .contact {
     padding: 3rem;
     display: flex;
     flex-direction: column;
+
+    background: #faf6f6;
+    border-radius: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .contact .contact-me h1 {
@@ -505,7 +463,6 @@ footer {
 }
 
 @media screen and (max-width: 1020px) {
-    .about .about-container,
     .header {
         display: flex;
         flex-direction: column;
@@ -522,7 +479,6 @@ footer {
         font-weight: 400;
     }
 
-    .about .about-container,
     .header {
         display: flex;
         flex-direction: column;
@@ -624,8 +580,7 @@ footer {
     }
 
     .contact .heading,
-    .projects .heading,
-    .about .heading {
+    .projects .heading {
         font-size: 3rem;
     }
 
@@ -709,8 +664,7 @@ footer {
     }
 
     .contact .heading,
-    .projects .heading,
-    .about .heading {
+    .projects .heading {
         font-size: 2.6rem;
     }
 
@@ -752,8 +706,8 @@ footer {
         font-weight: 300;
     }
 
-    .about {
-        padding: 1rem 0.4rem;
+    .slide-content{
+        padding: 2rem 0;
     }
 
     .header .my-content h1 {
@@ -787,7 +741,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 367px) {
+@media screen and (max-width: 370px) {
     .header .btn {
         padding: 0.2rem 0.2rem 0.2rem 0.5rem;
         font-size: 0.9rem;
@@ -820,8 +774,7 @@ footer {
     }
 
     .contact .heading,
-    .projects .heading,
-    .about .heading {
+    .projects .heading {
         font-size: 2.1rem;
     }
 
