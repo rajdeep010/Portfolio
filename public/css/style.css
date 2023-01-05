@@ -26,11 +26,13 @@
 
 html{
     overflow-x: hidden;
+    
 }
 
 body {
     padding: 1.6rem 4rem 0.1rem 4rem;
     overflow-x: hidden;
+    /* background-color: var(--dark-color); */
 }
 
 .dark{
@@ -242,10 +244,6 @@ section:nth-child(even) {
     padding: 3rem;
     display: flex;
     flex-direction: column;
-
-    background: #faf6f6;
-    border-radius: 3rem;
-    margin-bottom: 2.5rem;
 }
 
 .contact .contact-me h1 {
