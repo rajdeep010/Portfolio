@@ -408,6 +408,11 @@ footer {
     height: 20rem;
     width: 20rem;
     border-radius: 2rem;
+    border-top: 5px solid var(--dark-violet);
+    border-bottom: 5px solid var(--dark-violet);
+/* 
+    border-left: 5px solid var(--dark-violet);
+    border-right: 5px solid var(--dark-violet); */
 }
 
 .box .skill-content {
@@ -657,7 +662,7 @@ footer {
     .box .skill-icon img {
         height: 2rem;
         width: 2rem;
-        margin-top: 0.9rem;
+        margin-top: 0.6rem;
         margin-right: 0rem;
     }
 
